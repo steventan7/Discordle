@@ -24,24 +24,25 @@ client.answersList = [
 async def on_ready():
     print("Discordle is ready for action")
 
-@client.event
-async def on_message(message):
-    msg = message.content
+# @client.event
+# async def on_message(message):
+#     msg = message.content
     
-    await client.process_commands(message)
+#     await client.process_commands(message)
 	
 client.running = False
 @client.command()
 async def start(ctx):
-	client.running = True
-	client.string = ""
-	client.num_tries = 6
-	client.WORD = choose(client.answersList)
-	client.answersList.remove(client.WORD)
-	intro = STARTING_BOARD
-	embed = discord.Embed(color=discord.Color.green())  
-	embed.add_field(name='Wordle', value=intro, inline=True)
-	await ctx.send(embed=embed)
+    client.running = True
+    client.string = ""
+    client.num_tries = 6
+    client.WORD = choose(client.answersList)
+    client.answersList.remove(client.WORD)
+    intro = STARTING_BOARD
+    embed = discord.Embed(color=discord.Color.green())  
+    embed.add_field(name='Wordle', value=intro, inline=True)
+    # embed.set_thumbnail(url='https://www.androidfreeware.net/img2/com-chazun-wordle.jpg')
+    await ctx.send(embed=embed)
 
 client.string = ""
 client.num_tries = 6
@@ -65,13 +66,13 @@ async def guess(ctx, arg):
 			else:
 				selection = random.randrange(0, len(SORRY), 1)
 				response += SORRY[selection]
-			client.string = response + f"\nThe correct word was {client.WORD}."
+			response += f"\nThe correct word was {client.WORD}."
+			client.string = response # I fixed the showing correct word thing
 
 		embed = discord.Embed(color=discord.Color.green())
 		embed.add_field(name='Wordle', value=response, inline=True)
-	
 	else:
-		embed = discord.Embed().add_field(name="Wordle", value=client.string+"\nPlease use the start command to start a new game!", inline=True)
+		embed = discord.Embed(color=discord.Color.green()).add_field(name="Wordle", value=client.string+"\nPlease use the start command to start a new game!", inline=True)
 		
 	await ctx.channel.send(embed=embed)
 
@@ -143,19 +144,22 @@ async def instructions(ctx):
     )
 
     embed.add_field(name='Guess the WORDLE in six tries', value='Each guess must be a valid five-letter word. Hit the enter button to submit. \n After each guess, the color of the tiles will change to show how close your guess was to the word.', inline=True)
+    embed.set_image(url='https://i.inews.co.uk/content/uploads/2022/01/PRI_217279117-640x360.jpg')
+    embed.set_thumbnail(url='https://www.nytimes.com/games/wordle/images/NYT-Wordle-Meta.png')
     await ctx.send(embed=embed)
   
 @client.command()
 async def commands(ctx):        
     embed = discord.Embed(
         title="Discordle Commands",
-        description="List of commands",
+        description="List of commands:",
         color=discord.Color.green()
     )
 
     embed.add_field(name='!start', value='Start the game', inline=False)
     embed.add_field(name='!guess', value='Give your guess', inline=False)
     embed.add_field(name='!instructions', value='Get the set of instructions', inline=False)
+    embed.set_thumbnail(url='https://www.nytimes.com/games/wordle/images/NYT-Wordle-Meta.png')
     await ctx.send(embed=embed)
   
 my_secret = os.environ['TOKEN']
