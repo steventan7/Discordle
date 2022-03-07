@@ -1,0 +1,72 @@
+aiohttp @ file:///home/runner/.cache/pypoetry/artifacts/3f/d0/77/5f304dab3ab4e78570d56d9fcbefa93052e963223339e45ef0e133bbfe/aiohttp-3.7.4.post0-cp38-cp38-manylinux2014_x86_64.whl
+async-timeout @ file:///home/runner/.cache/pypoetry/artifacts/c7/da/71/c4409238928a2fb820a2b5ca6e78e62fa57ccdb0be6ca2d70293ef41d1/async_timeout-3.0.1-py3-none-any.whl
+attrs @ file:///home/runner/.cache/pypoetry/artifacts/ce/c5/12/8fd5b4b1dc80042f7e01fbe2ff237c1b919916077e31ba1af981b6e970/attrs-21.4.0-py2.py3-none-any.whl
+backports.entry-points-selectable==1.1.1
+CacheControl==0.12.10
+cachy==0.3.0
+certifi==2021.10.8
+cffi==1.15.0
+chardet @ file:///home/runner/.cache/pypoetry/artifacts/d3/11/55/48142abd2f6448e7241f6cbcabf421ef65ac5db5a4887be11463b378ba/chardet-4.0.0-py2.py3-none-any.whl
+charset-normalizer @ file:///home/runner/.cache/pypoetry/artifacts/ec/5b/a2/c10e4856edc87c679dee9eda80eaf78838440ead15e9f074a8cb791024/charset_normalizer-2.0.12-py3-none-any.whl
+cleo==0.8.1
+click @ file:///home/runner/.cache/pypoetry/artifacts/37/bb/4c/9891d9118a6a5aaa45be0a1357a7ecd642d2464d83c3cc0e8ee9b28ebf/click-8.0.4-py3-none-any.whl
+clikit==0.6.2
+crashtest==0.3.1
+cryptography==35.0.0
+debugpy==1.2.1
+discord @ file:///home/runner/.cache/pypoetry/artifacts/0f/cc/0e/0dd848b2518df98bf9b6e4de7030042dd09e0aa66d5bdb982bf67023fe/discord-1.7.3-py3-none-any.whl
+discord.py @ file:///home/runner/.cache/pypoetry/artifacts/8a/f5/fd/3bad86524984f03dbed9b681a493a9b38c68e74a324f4a81b2143086b0/discord.py-1.7.3-py3-none-any.whl
+distlib==0.3.3
+docopt==0.6.2
+filelock==3.3.2
+Flask @ file:///home/runner/.cache/pypoetry/artifacts/cd/4b/12/2ef50ad12f8373130d91ea66343bfa1fb25be1e5b370671bbcca3bf5a1/Flask-2.0.3-py3-none-any.whl
+future==0.18.2
+html5lib==1.1
+idna==3.3
+importlib-metadata==3.10.1
+itsdangerous @ file:///home/runner/.cache/pypoetry/artifacts/73/ba/ab/ad9f4d65ea75d4b24641a26056eb4fdec6c7beea234bea2f11826f2dcd/itsdangerous-2.1.0-py3-none-any.whl
+jedi==0.15.2
+jeepney==0.7.1
+Jinja2 @ file:///home/runner/.cache/pypoetry/artifacts/0c/f3/b0/54735b48c428919bb1cca6c8611b3853b8a66e35ffff373bba54b36f45/Jinja2-3.0.3-py3-none-any.whl
+keyring==21.8.0
+lockfile==0.12.2
+MarkupSafe @ file:///home/runner/.cache/pypoetry/artifacts/1d/65/c8/659793c47bf262763d658726e371cf197f520f55de08bf567cf3ea8c71/MarkupSafe-2.1.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+msgpack==1.0.2
+multidict @ file:///home/runner/.cache/pypoetry/artifacts/d4/f2/19/e92b8d780e4d481ca2e4dc917e50941c793d8b8481ffe37410dab9075a/multidict-6.0.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+numpy @ file:///home/runner/.cache/pypoetry/artifacts/0a/f1/63/4e86e206dd78b5ffa1d0b33299c8275c3e1a2411fac9d63320ce69de5f/numpy-1.22.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+packaging==20.9
+parso==0.5.2
+pastel==0.2.1
+pexpect==4.8.0
+pipreqs-amasad==0.4.10
+pkginfo==1.7.1
+platformdirs==2.4.0
+pluggy==0.13.1
+poetry==1.1.11
+poetry-core==1.0.7
+ptyprocess==0.7.0
+pycparser==2.21
+pyflakes==2.1.1
+pylev==1.4.0
+pyparsing==3.0.5
+python-jsonrpc-server==0.3.2
+python-language-server==0.31.10
+replit @ file:///home/runner/.cache/pypoetry/artifacts/b2/02/c5/4a4bb623fdbed06e87884e479519b8351553b8cae5559be043a8ec4425/replit-3.2.4-py3-none-any.whl
+requests @ file:///home/runner/.cache/pypoetry/artifacts/15/3c/d9/96434347a23410cdcf0d36c6f02f274d98d8cb07a1a0ebc81dc5ecc54b/requests-2.27.1-py2.py3-none-any.whl
+requests-toolbelt==0.9.1
+rope==0.18.0
+SecretStorage==3.3.1
+shellingham==1.4.0
+six==1.16.0
+toml==0.10.2
+tomlkit==0.7.2
+typing-extensions @ file:///home/runner/.cache/pypoetry/artifacts/44/b3/1f/4ac135543516a8e8a97bf3542272b786c9f86cdb42e7affc11199032d5/typing_extensions-3.10.0.2-py3-none-any.whl
+ujson==1.35
+urllib3 @ file:///home/runner/.cache/pypoetry/artifacts/9e/8f/8e/5a2a6058ef54ae8a580681ebf10ecefe74fb5b829c652f8ca3c55420a2/urllib3-1.26.8-py2.py3-none-any.whl
+virtualenv==20.10.0
+webencodings==0.5.1
+Werkzeug @ file:///home/runner/.cache/pypoetry/artifacts/21/92/5f/10e62ef1e84d56fd0847a6319359b2f4c7b2958815be0ed6714d47c5f5/Werkzeug-2.0.3-py3-none-any.whl
+yapf==0.31.0
+yarg==0.1.9
+yarl @ file:///home/runner/.cache/pypoetry/artifacts/1c/b1/ab/060bfb7dbc4a037102a22a2171f5f19ccec8bf7338a6c23c02796edd0d/yarl-1.7.2-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+zipp==3.4.1
